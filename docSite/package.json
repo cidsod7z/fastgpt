@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "postcss-cli": "^10.0.0"
-  },
-  "scripts": {
-    "postcss": "bash ./node_modules/.bin/postcss"
-  }
-}
