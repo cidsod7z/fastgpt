@@ -174,3 +174,8 @@ defaultContentLanguage = 'zh-cn'
 #     url = "https://github.com/colinwilson/lotusdocs/discussions"
 #     identifier = "community"
 #     weight = 30
+
+[security]
+  [security.exec]
+    allow = ['.*']
+    osEnv = ['.*']
