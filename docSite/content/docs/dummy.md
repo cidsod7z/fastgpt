@@ -1,0 +1,2 @@
+# Dummy page
+](/imgs/test)
