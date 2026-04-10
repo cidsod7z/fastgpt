@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+{{ $css := resources.Get "css/main.css" | resources.PostCSS }}
+<link rel="stylesheet" href="{{ $css.Permalink }}">
+</body>
+</html>
